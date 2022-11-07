@@ -8,7 +8,7 @@ license=('GPL')
 source=('dnsupdater.service' 'dnsupdater.timer' 'dnsupdater.sh' "dnsupdater.conf")
 sha1sums=('81f639d1890cd4f641a37aa0522c207365f77f3d'
           '334d13bea8efa4d3681274747f3327f43671ee2e'
-          '81c4650fbbfd1463f317def5bffd5aa25a8a3a85'
+          '65d56e2e4715dfa3e9773421a0ce1d18ff8ba190'
           'da9b02fc99579bccc73f0566d4cd7a60c3e0c842')
 depends=('bash' 'curl')
 makedepends=()

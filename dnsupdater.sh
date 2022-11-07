@@ -31,7 +31,7 @@ then
 }
   "
 else
-  echo "Obtained IPv6 IP ${IPV4}"
+  echo "Obtained IPv6 IP ${IPV6}"
   BODY_IPV6=",
   {
     \"name\": \"${PDNS_RECORD_NAME}\",
