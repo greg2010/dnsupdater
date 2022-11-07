@@ -1,0 +1,11 @@
+[Unit]
+Description=Updates home dns record to point to this machine's public IP
+Requires=dnsupdater.service
+After=network-online.target
+
+[Timer]
+Unit=dnsupdater.service
+OnUnitActiveSec=1min
+
+[Install]
+WantedBy=timers.target

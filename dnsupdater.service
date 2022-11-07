@@ -1,0 +1,10 @@
+[Unit]
+Description=Logs system statistics to the systemd journal
+Wants=dnsupdater.timer
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/dnsupdater.sh
+EnvironmentFile=/etc/dnsupdater.conf
+[Install]
+WantedBy=multi-user.target
